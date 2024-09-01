@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.team-section {
+    text-align: center;
+    padding: 100px 0; /* Augmentation supplémentaire du padding */
+}
+
+.team-section h1 {
+    font-size: 80px; /* Augmentation supplémentaire de la taille du titre */
+    margin-bottom: 40px; /* Augmentation supplémentaire de l'espacement inférieur */
+}
+
+/* Flexbox pour l'alignement horizontal */
+.team-section .profiles {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px; /* Augmentation supplémentaire de l'écart entre les profils */
+}
+
+.team-section .profile {
+    width: 400px; /* Augmentation supplémentaire de la largeur du profil */
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Augmentation supplémentaire de l'ombre portée */
+    border-radius: 10px; /* Augmentation supplémentaire du rayon de bordure */
+    overflow: hidden;
+    text-align: center;
+}
+
+.team-section .img-container {
+    width: 300px; /* Augmentation supplémentaire de la largeur du conteneur d'image */
+    height: 300px; /* Augmentation supplémentaire de la hauteur du conteneur d'image */
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%; /* Garder les images rondes */
+}
+
+.team-section .img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.team-section .profile h2 {
+    font-size: 44px; /* Augmentation supplémentaire de la taille du texte */
+    margin: 20px 0; /* Augmentation supplémentaire de l'espacement */
+}
+
+.team-section .profile p {
+    padding: 0 20px; /* Augmentation supplémentaire du padding */
+    font-size: 28px; /* Augmentation supplémentaire de la taille du texte */
+    color: #555;
+}
